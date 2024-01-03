@@ -16,6 +16,7 @@ jobs:
       fail-fast: false
       matrix:
         tag:
+          - main
           - php7.4
           - php8.1
     steps:
